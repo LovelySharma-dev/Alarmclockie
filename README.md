@@ -1,59 +1,61 @@
-# Alarmclockie
-# Alarm Clock ⏰  
+# AlarmClockie ⏰  
 
-A simple alarm clock application written in [Python]. This project is perfect for beginners to explore basic programming concepts and build a practical utility.  
+**AlarmClockie** is a simple alarm clock program built using Python. Set an alarm, and let it play a sound when it's time! Perfect for beginners exploring Python and the use of libraries like `datetime` and `playsound`.
 
 ---
 
 ## Features ✨  
-- Set an alarm for a specific time.  
-- Plays a sound or displays a notification when the alarm goes off.  
-- Lightweight and easy to use.  
+- Set an alarm by specifying the hour, minutes, and AM/PM.  
+- Plays a custom alarm sound when the time is reached.  
+- Easy to use and beginner-friendly.  
 
 ---
 
 ## Getting Started 🚀  
 
 ### Prerequisites  
-- Python installed on your system.    
+- Python installed on your system.  
+- The `playsound` library. Install it using:  
+   ```bash  
+   pip install playsound  
+   ```  
 
 ### Installation  
-1. Clone the repository:  
+1. Clone this repository:  
    ```bash  
-   https://github.com/LovelySharma-dev/Alarmclockie.git  
-   cd alarm-clock  
+   git clone https://github.com/yourusername/alarmclockie.git  
+   cd alarmclockie  
    ```  
 
-2. Install dependencies (if any):  
-   ```bash  
-   pip install -r requirements.txt  # For Python  
-   ```  
+2. Ensure you have a sound file (`sound.mp3`) placed in the `Alarmclockie` directory.  
 
 3. Run the program:  
    ```bash  
-   python alarm_clock.py  
+   python alarmclockie.py  
    ```  
 
 ---
 
 ## How to Use  
-1. Run the script and follow the prompts to set an alarm time.  
-2. The application will notify you or play a sound at the specified time.  
+1. Enter the alarm time in hours and minutes, followed by AM or PM when prompted.  
+2. The program will keep checking the current time.  
+3. When the specified time is reached, it plays the alarm sound and exits.  
 
 ---
 
+
 ## Contributing 🤝  
-Feel free to fork this repository and submit pull requests with improvements or additional features!  
+Have ideas to enhance AlarmClockie? Fork the repository, make your changes, and create a pull request.  
 
 ---
 
 ## License 📝  
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.  
+This project is licensed under the MIT License.
 
 ---
 
-### Let's wake up on time together! ⏰✨  
+**Wake up smarter with AlarmClockie! ⏰**  
 
----
+--- 
 
-Let me know if you'd like adjustments or help with the code structure itself!
+Feel free to share the sound file details or request additional sections!
