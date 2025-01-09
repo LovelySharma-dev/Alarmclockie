@@ -20,7 +20,7 @@ A simple alarm clock application written in [Python]. This project is perfect fo
 ### Installation  
 1. Clone the repository:  
    ```bash  
-   git clone https://github.com/yourusername/alarm-clock.git  
+   https://github.com/LovelySharma-dev/Alarmclockie.git  
    cd alarm-clock  
    ```  
 
